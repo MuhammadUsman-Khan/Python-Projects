@@ -27,6 +27,6 @@ def get_weather(city, api_key):
     else:
         print("City not found!")
 
-api_key = "28936c444318f6cdc4cb87138d1dc586"
+api_key = "*************************"
 city = input("Enter city name: ")
 get_weather(city, api_key)
